@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sablon{ 
+	width:740px; 
+	height:auto; 
+	margin:30px auto
+	}
+
+.Logo{ 
+	width:100px;
+	height:100px;
+	float:left;
+	margin: 10px 10px 0 0;
+	background: url(newimages/smartlogic-seal-teal-100.png)
+	}
+
+.banner{ 
+	width:630px; 
+	height:60px; 
+	float:left;
+	margin: 10px 0 0 0;
+	background: #003466;
+	border-radius: 10px;
+	color: #fff; 
+	font: bold 15px tahoma; 
+	text-align: center;
+	padding: 40px 0 0 0
+	}  
+
+.menu{
+	width: 580px;
+	height: 47px;
+	float: left;
+	margin: 10px 0 0 0;
+	background: #00468c
+	}
+
+.sosyal{
+	width: 150px;
+	height: 47px;
+	float: left;
+	margin: 10px 0 0 10px
+	}
+
+.orta1{
+	width: 740px; 
+	height: 350px;
+	float: left;
+	margin: 10px 0 10px 0;
+	background: #016DD9
+	}
+
+.orta2{
+	width: 240px; 
+	height: 240px; 
+	float: left;
+	background: #4da6ff
+	}
+
+.orta3{
+	width: 240px; 
+	height: 240px; 
+	float: left; 
+	margin: 0 0 0 10px;
+	background: #99cdff
+	}
+
+.orta4{
+	width: 240px; 
+	height: 240px; 
+	float: left;
+	margin: 0 0 0 10px;
+	background: #bedfef
+	}
+
+.alt1{
+	width: 740px; 
+	height: 90px;
+	float: left;		
+	margin: 10px 0 0 0;
+	background: #bfeefe;
+	border-radius: 10px 10px 10px 10px 
+	}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none
+	}
+.menu ul li{
+	float: left
+	}
+.menu ul li a{
+	display: block;
+	width: 145px;
+	height: 32px;
+	text-decoration: none;
+	text-align: center;
+	font: 13px tahoma;
+	color: white;
+	padding: 15px 0 0 0
+	}
+.menu ul li a:hover{
+	text-decoration: underline;
+	background: #06f
+	}
+
+
+
+
+
+
+
+
+
+
+
+

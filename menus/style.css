@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+.menu1{
+			  width: 130px;
+			  height: 160px;
+			  margin: 10px 0 0 0}
+.menu1 ul{
+			  margin: 0;
+			  padding: 0;
+			  list-style: none}
+
+.menu1 ul li a{
+	          display: block;
+              width: 125px;
+	          height: 24px;
+			  background: #fcc;
+	          color: #930;
+              font: bold 12px tahoma;
+              text-decoration: none;
+	          padding:8px 0 0 5px }
+.menu1 ul li a:hover{
+	          color: #fff;
+	          background: #930}
+.menu2{
+	    width: 600px;
+	    height: 32px;
+	    margin: 30px 0 0 0 }
+				
+.menu2 ul{
+		margin: 0;
+		padding: 0;
+		list-style: none}
+.menu2 ul li{
+		float: left}
+.menu2 ul li a{
+		display: block;
+		width: 120px;
+		height: 24px;
+		background: #fcc;
+		color: #930;
+		font: bold 12px tahoma;
+		text-decoration: none;
+		padding: 8px 0 0 0;
+        text-align: center}
+.menu2 ul li a:hover{
+	    color: #fff;
+	    background: #930}
+.menu3{
+	    width:510px;
+	    height:32px;
+	    margin:30px 0 0 0 }
+
+.menu3 ul{
+		margin: 0;
+		padding: 0;
+		list-style: none}
+.menu3 ul li{
+		float: left}
+.menu3 ul li a{
+		display: block;
+	    padding: 9px 25px;
+		background: #fcc;
+		color: #930;
+		font: bold 12px tahoma;
+		text-decoration: none}
+.menu3 ul li a:hover{
+	    color: #fff;
+	    background: #930}
+
+.menu4{
+	    width: 152px;
+	    height: 170px;
+	    margin: 30px 0 0 0 }
+				
+.menu4 ul{
+		margin: 0;
+		padding: 0;
+		list-style: none}
+
+.menu4 ul li{position: relative}
+
+.menu4 ul li a{
+		display: block;
+		width: 150px;
+		background: #fcc;
+		color: #930;
+		font: bold 12px tahoma;
+		text-decoration: none;
+		padding: 9px 5px;
+        border: 1px solid #800}
+.menu4 ul li a:hover{
+	    color: #fff;
+	    background: #930}
+.menu4 ul li ul{
+	    display: none;
+	    position: absolute;
+	    left:162px;
+	    top: 0}
+.menu4 ul li:hover ul{
+	    display: block}
+
+.menu5{
+	   width: 710px;
+       height: 150px;
+	   padding: 50px 0 0 0}
+.menu5 ul{
+	   margin: 0;
+       padding: 0;
+       list-style: none}
+.menu5 ul li{
+	   float: left;
+       position: relative}
+.menu5 ul li a{
+	   display: block;
+	   width: 120px;
+	   background: #fcc;
+	   color: #930;
+	   font: bold 12px tahoma;
+	   text-decoration: none;
+	   padding: 9px 0;
+	   border: 1px solid #800;
+       text-align: center;}
+.menu5 ul li a:hover{
+	   color: #fff;
+	   background: #930}
+.menu5 ul li ul{
+	   display: none;
+	   position: absolute;
+       left: 0;
+	   top: 34px}
+.menu5 ul li:hover ul{
+	   display: block;}
+
+.menu6 {
+	   width: 750px;
+	   height: 30px;
+	   margin: 30px 0 0 0 }
+.menu6 ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+         }
+
+.menu6 ul li{float: left}
+
+.menu6 ul li a{
+		display: block;
+		width: 110px;
+	    height: 14px;
+	    text-decoration: none;
+		color: #000;
+		font: bold 12px tahoma;
+        background:url(image/images.jpg);
+        padding: 7px 30px}
+.menu6 ul li a:hover{
+	    color: #900}
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	           
+	 

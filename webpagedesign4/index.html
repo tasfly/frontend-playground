@@ -79,6 +79,164 @@
 		console.log("JavaScript");
 		//console.log kullanımı
 	</script>
+	<script type="text/javascript">
+		function bas(){
+			window.alert("tıklandı");
+		}
+		bas();
+		//fonksiyonları çağırma 
+	</script>
+	<script type="text/javascript">
+		function isminisoyle (Erkan) {
+			window.alert("benim ismim " + Erkan );
+		}
+		isminisoyle("Erkan")
+		//fonksiyonların parametrlerle kullanımı
+	</script>
+	<script type="text/javascript">
+		function toplama (a,b){
+			window.alert(a + b);
+		}
+		function cikartma (a,b){
+			window.alert(a -b);
+		}
+	</script>
+	<p>
+	<input type="button" value="toplama butonu" onclick="toplama(4,5)" />
+    </p>
+    <p>
+	<input type="button" value="cikartma butonu" onclick="cikartma(10,3)" />
+    </p>
+    <script type="text/javascript">
+    	//return kullanımı
+    	function toplama(a,b) {
+    		return a+b;
+    	}
+    	var c =toplama(3,4);
+    	document.write (c);
+    </script>
+
+    <script type="text/javascript">
+    	function toplama(a,b){
+    	return a+b;
+        }
+        function carpma(a,b){
+        	return a*b;
+        }
+        window.alert(carpma(toplama(3,5),toplama(4,6)));
+    </script>
+    <script type="text/javascript">
+    	function deneme(){
+
+    		var x=32; // local değişkenler(yok olan ekranda görülmeyen değişkenler)
+    	}
+    	deneme();
+    	document.write(x)
+    </script>
+    <script type="text/javascript">
+    	var x = 32;  // Global değişkenler
+    	function deneme () {
+
+    		window.alert(x);
+    	}
+
+    	deneme ();
+    </script>
+
+    <script type="text/javascript">
+    	//objelere giriş
+        var pc1 = {marka:"Lenovo",model:"z500",ram:"6gb",cpu:2.66,cekirdek_sayisi:4,kapat:function(){
+        window.alert("Kapatılıyor...");
+       	
+        },
+        yazdır:function(){
+        	window.alert(this.marka);
+        }
+        };
+        pc1.yazdır();
+        //ekrana Lenovo yazdırdı.
+
+    </script>
+
+    <script type="text/javascript">
+    	//Math mdülü
+    	document.write(Math.PI); //pi sayısını ekrana yazdı
+    	document.write(Math.round(3.56));//3.56 sayısını 4e yuvarlar.
+    	document.write(Math.pow(4,2)); // 4 ün karesini al demek.
+    	document.write(Math.sqrt(2)); //2 nin karekökü demek.
+    	document.write(Math.min(0,100,1,-1,-100));//bu sayıların en küçüğünü bize verir.max yazarsakta en büyüğünü verir.
+    	window.alert(Math.random());//rastgele sayı 0-1 arasında
+
+    </script>
+    <script type="text/javascript">
+    	//arrayler
+    	var insanlar = ["Erkan,Özlem"];
+    	var x = [32,3.14,true,false,45];
+        document.write(insanlar);
+        document.window(x[2]);
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
